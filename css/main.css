@@ -1,3 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
 * {
-    box- sizing: border - box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    background-color: #f7f2ef;
+}
+
+.espacios-small {
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.navcontainer {
+    max-width: 1600px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.bg-img {
+    min-height: 200px;
+    /* The image used */
+    background: url(../images/navbackground.svg)no-repeat center;
+    /* Center and scale the image nicely */
+    background-size: cover;
+    /* Needed to position the navbar */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }
