@@ -16,13 +16,14 @@ body {
     padding-bottom: 60px;
 }
 
+
 .navcontainer {
     max-width: 90%;
 }
 
 
 .navbar-light .navbar-nav .nav-link {
-    color: #FFF;
+    color: #343434;
     font-size: 20px;
 }
 
@@ -68,11 +69,11 @@ body {
 
 .section_hero-main h1 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 5vh;
     font-weight: bold;
     padding: 20px;
     z-index: 1;
-    color: whitesmoke;
+    color: #FFF;
 }
 
 .video-container {
@@ -87,6 +88,7 @@ body {
     max-width: auto;
     /* The image used */
     background: url(../images/navbackground.svg)no-repeat center center;
+
     /* Center and scale the image nicely */
     background-size: cover;
     /* Needed to position the navbar */
