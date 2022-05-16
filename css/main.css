@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Koulen&family=Rubik:wght@500&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: bold;
     background-color: #f7f2ef;
+
 }
 
 .espacios-small {
@@ -17,18 +17,76 @@ body {
 }
 
 .navcontainer {
-    max-width: 1600px;
+    max-width: 90%;
 }
 
+
 .navbar-light .navbar-nav .nav-link {
-    color: whitesmoke;
+    color: #FFF;
     font-size: 20px;
 }
 
+.centrado {
+    text-align: center;
+}
+
+.margintop {
+    margin-top: 35px;
+}
+
+.margins-small {
+    margin-bottom: 20px;
+}
+
+.espacios {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.espacios-small {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.zindex-1 {
+    z-index: 1;
+}
+
+.container {
+    max-width: initial;
+}
+
+.section_hero-main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.section_hero-main h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 20px;
+    z-index: 1;
+    color: whitesmoke;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
 .bg-img {
-    min-height: 200px;
+    min-height: 175px;
+    max-width: auto;
     /* The image used */
-    background: url(../images/navbackground.svg)no-repeat center;
+    background: url(../images/navbackground.svg)no-repeat center center;
     /* Center and scale the image nicely */
     background-size: cover;
     /* Needed to position the navbar */
@@ -37,4 +95,60 @@ body {
     -o-background-size: cover;
     background-size: cover;
 
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 5px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.float:hover {
+    color: #fff;
+    background-color: #ffde59;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+a:hover {
+    color: #3b625f;
+}
+
+@media (max-width:991px) {
+    .section_hero-main {
+        text-align: center;
+    }
+
+    .hero-image1 {
+        max-width: 60%;
+    }
+
+    .img-sesiones {
+        max-width: 60%;
+    }
+}
+
+@media (max-width:600px) {
+    .section_hero-main {
+        text-align: center;
+    }
+
+    .hero-image1 {
+        max-width: 60%;
+    }
+
+    .img-sesiones {
+        max-width: 35%;
+    }
 }
