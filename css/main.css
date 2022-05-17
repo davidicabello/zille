@@ -189,6 +189,26 @@ body {
     fill: #FFFFFF;
 }
 
+.custom-shape-divider-top-1652754942 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1652754942 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 35px;
+}
+
+.custom-shape-divider-top-1652754942 .shape-fill {
+    fill: #FFFFFF;
+}
+
 .float {
     position: fixed;
     width: 60px;
