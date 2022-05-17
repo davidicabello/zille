@@ -189,24 +189,16 @@ body {
     fill: #FFFFFF;
 }
 
-.custom-shape-divider-top-1652754942 {
-    position: absolute;
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
-    overflow: hidden;
-    line-height: 0;
 }
 
-.custom-shape-divider-top-1652754942 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 35px;
-}
-
-.custom-shape-divider-top-1652754942 .shape-fill {
-    fill: #FFFFFF;
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky+.content {
+    padding-top: 60px;
 }
 
 .float {
