@@ -136,7 +136,7 @@ body {
     min-height: 175px;
     max-width: auto;
     /* The image used */
-    background: url(../images/navbackgroundwhitegreen.svg)no-repeat center center;
+    background: url(../images/newnav.svg)no-repeat center center;
 
     /* Center and scale the image nicely */
     background-size: cover;
@@ -247,6 +247,10 @@ a:hover {
     .img-sesiones {
         max-width: 60%;
     }
+
+    #main_text {
+        font-size: 4vh;
+    }
 }
 
 @media (max-width:600px) {
@@ -260,5 +264,9 @@ a:hover {
 
     .img-sesiones {
         max-width: 35%;
+    }
+
+    #main_text {
+        font-size: 4vh;
     }
 }
